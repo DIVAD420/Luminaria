@@ -1982,7 +1982,7 @@ MonoBehaviour:
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 136
   isGrounded: 0
   crouchSpeed: 1
   crouchYScale: 0.5
