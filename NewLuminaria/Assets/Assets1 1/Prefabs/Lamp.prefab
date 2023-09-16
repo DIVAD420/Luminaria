@@ -200,6 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8471074714173432589}
+  - component: {fileID: 8749970380492890793}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -224,3 +225,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8749970380492890793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471074714173432588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751d8f4e5af278b4c8b54f351647be05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightComp: {fileID: 8471074713930177184}
+  lightOnIntensity: 15
+  lightOnRange: 15

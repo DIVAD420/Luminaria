@@ -9,6 +9,9 @@ public class SurvivorLightREnder : MonoBehaviour
 
     public Light killerLight;
 
+    public float SlightIntensity;
+    public float SlightRange;
+
     public Light[] EnvironmentLights;
     // Start is called before the first frame update
     void Start()
@@ -32,7 +35,8 @@ public class SurvivorLightREnder : MonoBehaviour
             killerLight.enabled = false;
             for(int i = 0; i < EnvironmentLights.Length; i++)
             {
-                EnvironmentLights[i].intensity = 1;
+                EnvironmentLights[i].intensity = SlightIntensity;
+                EnvironmentLights[i].range = SlightRange;
             }
         }  
     }
@@ -43,7 +47,8 @@ public class SurvivorLightREnder : MonoBehaviour
             killerLight.enabled = false;
             for (int i = 0; i < EnvironmentLights.Length; i++)
             {
-                EnvironmentLights[i].intensity = 1;
+                EnvironmentLights[i].intensity = SlightIntensity;
+                EnvironmentLights[i].range = SlightRange;
             }
         }
     }
@@ -54,7 +59,8 @@ public class SurvivorLightREnder : MonoBehaviour
             killerLight.enabled = true;
             for (int i = 0; i < EnvironmentLights.Length; i++)
             {
-                EnvironmentLights[i].intensity = 5;
+                EnvironmentLights[i].intensity = 10;
+                EnvironmentLights[i].range = 15;
             }
         }
     }

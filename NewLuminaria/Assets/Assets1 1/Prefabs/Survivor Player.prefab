@@ -1855,7 +1855,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killerLightGO: {fileID: 0}
+  EnvironmentLightsGO: {fileID: 0}
   killerLight: {fileID: 0}
+  SlightIntensity: 1
+  SlightRange: 15
+  EnvironmentLights: []
 --- !u!1 &8067156957327290352
 GameObject:
   m_ObjectHideFlags: 0
