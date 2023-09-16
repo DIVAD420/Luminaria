@@ -54,7 +54,7 @@ public class TrashBag : MonoBehaviour
         currentOpeningTime = 0;
         if (!hasBeenopened)
         {
-            randomItem = Random.Range(1, 3);
+            randomItem = Random.Range(1, 4);
             if(randomItem == 1)
             {
                 Instantiate(FusePrefab, itemSpawn.transform.position, Quaternion.identity);

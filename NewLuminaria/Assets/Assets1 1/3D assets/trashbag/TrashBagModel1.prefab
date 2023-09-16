@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5777313260531987276}
   - component: {fileID: 7667552058093164550}
   m_Layer: 0
-  m_Name: Aset_street_props_S_ve2hddjga_00_LOD0
+  m_Name: TrashBagModel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

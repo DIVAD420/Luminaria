@@ -71,7 +71,10 @@ public class SurvivorInteractions : MonoBehaviour
 
         InteractUI.SetActive(false);
 
-        SwapSlots();
+        if (!Input.GetKey(KeyCode.E) || !SurvivorLookingAtObject || !interactionBarScript.isInteracting)
+        {
+            SwapSlots();
+        }
         ItemSlot1UI.text = ItemSlots[0].ToString();
         ItemSlot2UI.text = ItemSlots[1].ToString();
         ItemSlot3UI.text = ItemSlots[2].ToString();
@@ -245,15 +248,18 @@ public class SurvivorInteractions : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            currentSlot = 0; StopAllCoroutines();
+            currentSlot = 0; StopAllCoroutines(); SurvivorMoveScript.canMove = true;
+            interactionBarScript.DisableBar();
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            currentSlot = 1; StopAllCoroutines();
+            currentSlot = 1; StopAllCoroutines(); SurvivorMoveScript.canMove = true;
+            interactionBarScript.DisableBar();
         }
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            currentSlot = 2; StopAllCoroutines();
+            currentSlot = 2; StopAllCoroutines(); SurvivorMoveScript.canMove = true;
+            interactionBarScript.DisableBar();
         }
     }
     bool hasObjectiveItem()

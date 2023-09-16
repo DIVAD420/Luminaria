@@ -18,7 +18,7 @@ public class InteractionBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(isInteracting);
     }
     public void SetMax(float maxValue)
     {
@@ -31,5 +31,6 @@ public class InteractionBar : MonoBehaviour
     public void DisableBar()
     {
         InteractionSlide.maxValue = 0;
+        InteractionSlide.value = 0;
     }
 }
