@@ -18,7 +18,7 @@ public class InteractionBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(isInteracting);
+        //Debug.Log(isInteracting);
     }
     public void SetMax(float maxValue)
     {

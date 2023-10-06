@@ -25,6 +25,8 @@ public class SurvivorInteractions : MonoBehaviour
     public Transform DropLocationT;
     Vector3 DropLocationV;
 
+    bool interactingWithEnvironment = false;
+
     public LayerMask InteractableLayerMask;
 
     int swapedItemIndex;
@@ -60,8 +62,6 @@ public class SurvivorInteractions : MonoBehaviour
         ItemSlots[0] = NoneItem;
         ItemSlots[1] = NoneItem;
         ItemSlots[2] = NoneItem;
-
-        
     }
 
     // Update is called once per frame
@@ -71,8 +71,11 @@ public class SurvivorInteractions : MonoBehaviour
 
         InteractUI.SetActive(false);
 
-        if (!Input.GetKey(KeyCode.E) || !SurvivorLookingAtObject || !interactionBarScript.isInteracting)
+        //Debug.Log(interactingWithEnvironment);
+
+        if (!interactingWithEnvironment)
         {
+            //Debug.Log("Can Swap");
             SwapSlots();
         }
         ItemSlot1UI.text = ItemSlots[0].ToString();
@@ -100,6 +103,15 @@ public class SurvivorInteractions : MonoBehaviour
             CompleteObjective putInObjective = hit.transform.GetComponent<CompleteObjective>();
             FuseInteractions placeFuse = hit.transform.GetComponent<FuseInteractions>();
             TrashBag trashBagInteractions = hit.transform.GetComponent<TrashBag>();
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                interactingWithEnvironment = true;
+            }
+            else
+            {
+                interactingWithEnvironment = false;
+            }
 
             if (!LookedAtInteractable)
             {
@@ -207,6 +219,7 @@ public class SurvivorInteractions : MonoBehaviour
                 resetBar = true;
             }
             LookedAtInteractable = false;
+            interactingWithEnvironment = false;
         }
     }
     bool isNoneSlot()
