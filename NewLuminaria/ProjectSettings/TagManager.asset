@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Survivor
   - Dummy
+  - DummyMesh
   layers:
   - Default
   - TransparentFX
