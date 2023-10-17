@@ -24,10 +24,18 @@ public class SurvivorDetectionScript : MonoBehaviour
         if (isThereKiller)
         {
             gameObject.layer = LayerMask.NameToLayer("IsDetected");
+            foreach (Transform child in transform)
+            {
+                child.gameObject.layer = LayerMask.NameToLayer("IsDetected");
+            }
         }
         else
         {
             gameObject.layer = LayerMask.NameToLayer("IsNotDetected");
+            foreach (Transform child in transform)
+            {
+                child.gameObject.layer = LayerMask.NameToLayer("IsNotDetected");
+            }
         }
     }
 
