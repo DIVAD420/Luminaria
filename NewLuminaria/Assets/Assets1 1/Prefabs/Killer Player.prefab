@@ -14,8 +14,7 @@ GameObject:
   - component: {fileID: 3236016580749750980}
   - component: {fileID: 5394871681413996978}
   - component: {fileID: 6072262311418218079}
-  - component: {fileID: 338234828965824525}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Killer Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,24 +134,6 @@ MonoBehaviour:
   revealScreechCost: 250
   blackoutCD: 10
   blackOutDuration: 5
---- !u!114 &338234828965824525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351208220599031661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3c149c20a0051e40944bf351049f7f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rangeRadius: 3
-  whatIsSurvivor:
-    serializedVersion: 2
-    m_Bits: 64
-  SurvivorsInRange: []
-  allSurvivors: []
 --- !u!1 &1149666531169604265
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,7 +502,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 255
+    m_Bits: 20735
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

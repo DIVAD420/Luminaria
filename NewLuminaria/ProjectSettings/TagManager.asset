@@ -20,9 +20,9 @@ TagManager:
   - SurvivorLight
   - Killer Cam
   - Survivor Cam
-  - 
-  - 
-  - 
+  - IsDetected
+  - IsNotDetected
+  - Killer
   - 
   - 
   - 
