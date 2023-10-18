@@ -17,7 +17,10 @@ MonoBehaviour:
   - {fileID: 1902828633788537306}
   - {fileID: 1880163708194025631}
   - {fileID: 2340290907100754200}
+<<<<<<< Updated upstream
   - {fileID: 3318163361321518733}
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1880163708194025631
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -185,6 +188,7 @@ MonoBehaviour:
   m_HighQualityFiltering:
     m_OverrideState: 0
     m_Value: 1
+<<<<<<< Updated upstream
 --- !u!114 &3318163361321518733
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -278,6 +282,8 @@ MonoBehaviour:
   receiverMotionRejection:
     m_OverrideState: 0
     m_Value: 1
+=======
+>>>>>>> Stashed changes
 --- !u!114 &8761387877531654226
 MonoBehaviour:
   m_ObjectHideFlags: 3

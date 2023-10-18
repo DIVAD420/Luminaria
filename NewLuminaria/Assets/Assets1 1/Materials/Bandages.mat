@@ -212,7 +212,11 @@ Material:
     - _Ior: 1.5
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
+<<<<<<< Updated upstream
     - _LinkDetailsWithBase: 0
+=======
+    - _LinkDetailsWithBase: 1
+>>>>>>> Stashed changes
     - _MaterialID: 1
     - _Metallic: 0
     - _MetallicRemapMax: 0
@@ -233,7 +237,11 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _Smoothness: 0.5
+<<<<<<< Updated upstream
     - _SmoothnessRemapMax: 0.5
+=======
+    - _SmoothnessRemapMax: 1
+>>>>>>> Stashed changes
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -274,9 +282,15 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
+<<<<<<< Updated upstream
     - _BaseColor: {r: 1, g: 0.9397311, b: 0.75, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 0.9397311, b: 0.75, a: 1}
+=======
+    - _BaseColor: {r: 1, g: 0.9573731, b: 0.8632076, a: 1}
+    - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.9573731, b: 0.8632076, a: 1}
+>>>>>>> Stashed changes
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -291,7 +305,11 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+<<<<<<< Updated upstream
 --- !u!114 &4231496449051943689
+=======
+--- !u!114 &5041612938802849852
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

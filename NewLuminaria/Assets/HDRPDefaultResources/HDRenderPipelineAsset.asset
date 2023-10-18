@@ -17,7 +17,11 @@ MonoBehaviour:
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
+<<<<<<< Updated upstream
     supportSSGI: 1
+=======
+    supportSSGI: 0
+>>>>>>> Stashed changes
     supportSubsurfaceScattering: 1
     sssSampleBudget:
       m_Values: 140000002800000050000000
@@ -35,6 +39,7 @@ MonoBehaviour:
     customBufferFormat: 8
     supportedLitShaderMode: 2
     planarReflectionResolution:
+<<<<<<< Updated upstream
       m_Values: 000100000004000000040000
       m_SchemaId:
         m_Id: With3Levels
@@ -42,6 +47,15 @@ MonoBehaviour:
     supportDecalLayers: 1
     supportSurfaceGradient: 1
     decalNormalBufferHP: 1
+=======
+      m_Values: 000100000004000000080000
+      m_SchemaId:
+        m_Id: With3Levels
+    supportDecals: 1
+    supportDecalLayers: 0
+    supportSurfaceGradient: 1
+    decalNormalBufferHP: 0
+>>>>>>> Stashed changes
     msaaSampleCount: 1
     supportMotionVectors: 1
     supportRuntimeAOVAPI: 0
@@ -112,7 +126,11 @@ MonoBehaviour:
       drawDistance: 1000
       atlasWidth: 4096
       atlasHeight: 4096
+<<<<<<< Updated upstream
       perChannelMask: 1
+=======
+      perChannelMask: 0
+>>>>>>> Stashed changes
     postProcessSettings:
       m_LutSize: 32
       lutFormat: 48
@@ -155,7 +173,11 @@ MonoBehaviour:
       DoFResolution: 040000000200000001000000
       DoFHighQualityFiltering: 000101
       DoFPhysicallyBased: 000000
+<<<<<<< Updated upstream
       MotionBlurSampleCount: 180000001800000018000000
+=======
+      MotionBlurSampleCount: 04000000080000000c000000
+>>>>>>> Stashed changes
       BloomRes: 040000000200000002000000
       BloomHighQualityFiltering: 000101
       BloomHighQualityPrefiltering: 000001
