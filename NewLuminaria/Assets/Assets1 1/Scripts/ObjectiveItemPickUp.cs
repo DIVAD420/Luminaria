@@ -14,6 +14,7 @@ public class ObjectiveItemPickUp : MonoBehaviour
     public GameObject BandagePrefab;
     public GameObject ChocPrefab;
     public GameObject LampPrefab;
+    public GameObject FlashLightPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +54,10 @@ public class ObjectiveItemPickUp : MonoBehaviour
         else if(ItemIndex == 5)
         {
             Instantiate(LampPrefab, currentLocation, transform.rotation);
+        }
+        else if (ItemIndex == 6)
+        {
+            Instantiate(FlashLightPrefab, currentLocation, transform.rotation);
         }
         Destroy(gameObject);
     }

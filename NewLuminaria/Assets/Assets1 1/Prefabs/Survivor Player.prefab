@@ -2126,7 +2126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fb02f9cbf5ee8349813cc6bc2105930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 400
+  mouseSensitivity: 300
   playerBody: {fileID: 8067156956725005235}
   survivorMovementScript: {fileID: 8067156956725005232}
 --- !u!114 &6589598575952459662
