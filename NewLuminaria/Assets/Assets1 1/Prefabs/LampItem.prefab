@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 032f660e52aa0794f98f88c133f984e2, type: 2}
+  - {fileID: 2100000, guid: 9fade689d08774942bab767455c6209a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -134,3 +134,4 @@ MonoBehaviour:
   BandagePrefab: {fileID: 7269524847168071929, guid: 37c476d7166ccd740842a197d80fb384, type: 3}
   ChocPrefab: {fileID: 6531742209282094703, guid: df2f5e3d21f6fbf42a256273c6690a1c, type: 3}
   LampPrefab: {fileID: 1196599022885020385}
+  FlashLightPrefab: {fileID: 0}
