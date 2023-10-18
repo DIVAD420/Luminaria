@@ -25,7 +25,7 @@ public class SurvivorLightREnder : MonoBehaviour
         killerLightGO = GameObject.Find("KillerLight");
         killerLight = killerLightGO.GetComponent<Light>();
 
-        EnvironmentLightsGO = GameObject.Find("Lamps");
+        EnvironmentLightsGO = GameObject.Find("enviroment lights");
         EnvironmentLights = EnvironmentLightsGO.GetComponentsInChildren<Light>();
     }
     private void OnPreCull()
