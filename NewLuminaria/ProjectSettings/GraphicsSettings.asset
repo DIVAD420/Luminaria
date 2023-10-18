@@ -36,14 +36,11 @@ GraphicsSettings:
   - {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10783, guid: 0000000000000000f000000000000000, type: 0}
   m_PreloadedShaders: []
   m_PreloadShadersBatchTimeLimit: -1
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-<<<<<<< Updated upstream
-  m_CustomRenderPipeline: {fileID: 11400000, guid: 3e594ef44f0c027409701a1d01ad0bc3, type: 2}
-=======
-  m_CustomRenderPipeline: {fileID: 11400000, guid: 141c3454c251caa42b675ed949038b03, type: 2}
->>>>>>> Stashed changes
+  m_CustomRenderPipeline: {fileID: 11400000, guid: 53351211fa2d35043a7acfab7895ac06, type: 2}
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 0, z: 1}
   m_DefaultRenderingPath: 1
@@ -67,8 +64,4 @@ GraphicsSettings:
   m_DefaultRenderingLayerMask: 257
   m_LogWhenShaderIsCompiled: 0
   m_SRPDefaultSettings:
-<<<<<<< Updated upstream
-    UnityEngine.Rendering.HighDefinition.HDRenderPipeline: {fileID: 11400000, guid: 8a97a019be8b7cd41bdbd9a8e2295e69, type: 2}
-=======
     UnityEngine.Rendering.HighDefinition.HDRenderPipeline: {fileID: 11400000, guid: 4dfffd3f61918ec44bd6bd8d72dd892c, type: 2}
->>>>>>> Stashed changes
